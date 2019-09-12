@@ -334,7 +334,7 @@ nav ul li a:hover{
 }
 .main-wrapper img {
 	width: 100%;
-	max-width: 625px;
+	max-width: 430px;
 	position: absolute;
 	bottom: 0;
 	left: 50%;
@@ -562,7 +562,6 @@ nav ul li a:hover{
 	position: absolute;
 	bottom: -50px;
 	left: 150px;
-	width: 350px;
 }
 .info-title {
 	width: 700px;
@@ -850,8 +849,14 @@ footer {
 	}
 
 	/* about */
+	.about-program {
+    padding: 100px 0 280px;
+	}
 	.founder-photo {
-		display: none;
+    top: -267px;
+    right: -15px;
+    z-index: 0;
+    width: 230px;
 	}
 	.about-founder-docs {
 		margin-left: 0;
@@ -860,7 +865,7 @@ footer {
 
 	/* info */
 	.info-wrapper img {
-		left: 0;
+		left: -20px;
 		width: 300px;
 	}
 
@@ -881,6 +886,9 @@ footer {
 	}
 
 	/* tasks */
+	.tasks-wrapper {
+		padding-bottom: 250px;
+	}
 	.task-accordion-item {
 		flex-direction: column;
 	}
@@ -890,7 +898,8 @@ footer {
 
 	/* info */
 	.info-wrapper img {
-		display: none;
+		top: -267px;
+		left: -40px;
 	}
 	.info-title {
 		width: unset;
@@ -978,9 +987,6 @@ footer {
 	}
 
 	/* about */
-	.about-program {
-		padding: 100px 0 30px;
-	}
 	.founder-doc-text span {
 		font-size: 12px;
 		font-family: mbold;
