@@ -976,11 +976,6 @@ footer {
 		left: -20px;
 		width: 300px;
 	}
-
-	/* partners */
-	.partners-logo img {
-		width: 80%;
-	}
 }
 @media (max-width: 840px) {
 	/* about */
@@ -1116,5 +1111,16 @@ footer {
 	/* info */
 	.info-address span:last-child {
 		bottom: -78px;
+	}
+
+	.org-info__item {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.org-info__item a {
+		margin: auto;
+	}
+	.org-info__item img {
+		margin-left: -30px;
 	}
 }
