@@ -639,18 +639,24 @@ nav ul li a:hover{
 	text-transform: uppercase;
 	background-color: var(--dark-blue);
 }
-.info-address span:first-child {
+.info-address span:nth-child(1) {
 	bottom: -50px;
 }
-.info-address span:last-child {
+.info-address span:nth-child(3) {
 	bottom: -79px;
+}
+.info-address span:nth-child(4) {
+	bottom: -108px;
 }
 .info-address .city-icon {
 	position: absolute;
-	right: 274px;
+	right: 355px;
 	bottom: -77px;
 	height: 24px;
 	background-color: transparent;
+}
+.ru .info-address .city-icon {
+	right: 337px;
 }
 
 /* forum org */
@@ -931,7 +937,10 @@ footer {
 		right: 5px;
 	}
 	.info-address .city-icon {
-		right: 124px;
+		right: 204px;
+	}
+	.ru .info-address .city-icon {
+		right: 187px;
 	}
 
 	/* forum org */
@@ -975,6 +984,11 @@ footer {
 	.info-wrapper img:not(.city-icon) {
 		left: -20px;
 		width: 300px;
+	}
+
+	/* partners */
+	.partners-logo img {
+		max-width: 100%;
 	}
 }
 @media (max-width: 840px) {
@@ -1050,7 +1064,10 @@ footer {
 		font-size: 14px;
 	}
 	.info-address .city-icon {
-		right: 112px;
+		right: 183px;
+	}
+	.ru .info-address .city-icon {
+		right: 168px;
 	}
 
 	/* forum org */
@@ -1109,8 +1126,14 @@ footer {
 	}
 
 	/* info */
-	.info-address span:last-child {
+	.info {
+		margin-bottom: 146px;
+	}
+	.info-address span:nth-child(3) {
 		bottom: -78px;
+	}
+	.info-address span:nth-child(4) {
+		bottom: -124px;
 	}
 
 	.org-info__item {
