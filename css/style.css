@@ -1052,6 +1052,9 @@ footer {
 }
 @media (max-width: 600px) {
 	/* info */
+	.info {
+		margin-bottom: 146px;
+	}
 	.info-title h3 {
 		font-size: 16px;
 		margin-bottom: 20px;
@@ -1061,13 +1064,22 @@ footer {
 		line-height: 38px;
 	}
 	.info-address span {
-		font-size: 14px;
+		font-size: 13px;
+	}
+	.info-address span:nth-child(3) {
+		bottom: -76px;
+	}
+	.info-address span:nth-child(4) {
+		max-width: 400px;
+		bottom: -118px;
 	}
 	.info-address .city-icon {
-		right: 183px;
+		right: 172px;
+		bottom: -74px;
+		height: 22px;
 	}
 	.ru .info-address .city-icon {
-		right: 168px;
+		right: 158px;
 	}
 
 	/* forum org */
@@ -1123,17 +1135,6 @@ footer {
 	.founder-doc-text span {
 		font-size: 12px;
 		font-family: mbold;
-	}
-
-	/* info */
-	.info {
-		margin-bottom: 146px;
-	}
-	.info-address span:nth-child(3) {
-		bottom: -78px;
-	}
-	.info-address span:nth-child(4) {
-		bottom: -124px;
 	}
 
 	.org-info__item {
