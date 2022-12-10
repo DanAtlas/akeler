@@ -1110,6 +1110,9 @@ footer {
 		    -ms-flex-direction: column;
 		        flex-direction: column;
 	}
+	.partners-logo div img {
+		width: auto;
+	}
 
 	/* parts */
 	.parts-info h3 {
