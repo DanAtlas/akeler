@@ -499,7 +499,7 @@ nav ul li a:hover{
 }
 .about-forum-program {
 	position: absolute;
-	top: -30px;
+	top: -40px;
 	left: 50%;
 	-webkit-transform: translate(-50%);
 	-ms-transform: translate(-50%);
@@ -514,6 +514,51 @@ nav ul li a:hover{
 	text-transform: uppercase;
 	font-size: 18px;
 	font-family: mbold;
+}
+.about-forum-program h2 {
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: mbold;
+}
+.about-forum-program h2 a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: inherit;
+	color: var(--yellow);
+}
+.about-forum-program h2 a i::before,
+.about-forum-program h2 a i::after,
+.about-forum-program a {
+	-webkit-transition: .3s ease-out;
+	-o-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+.about-forum-program h2 a i {
+	position: relative;
+	overflow: hidden;
+	height: 16px;
+	width: 16px;
+	margin-right: 5px;
+}
+.about-forum-program h2 a i::after,
+.about-forum-program h2 a i::before {
+	position: absolute;
+	top: 0;
+}
+.about-forum-program h2 a i::before {
+	left: 0;
+}
+.about-forum-program h2 a i::after {
+	content: "\f061";
+	left: -200%;
+}
+.about-forum-program h2 a:hover i::before {
+	left: 200%;
+}
+.about-forum-program h2 a:hover i::after {
+	left: 0;
 }
 .about-forum-program a {
 	font-size: 14px;
