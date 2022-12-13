@@ -515,8 +515,14 @@ nav ul li a:hover{
 	font-size: 18px;
 	font-family: mbold;
 }
+.about-forum-program h1 a {
+	color: var(--white);
+}
+.about-forum-program h1 a:hover {
+	color: var(--yellow);
+}
 .about-forum-program h2 {
-	margin-top: 10px;
+	margin-top: 16px;
 	text-transform: uppercase;
 	font-size: 16px;
 	font-family: mbold;
@@ -559,16 +565,6 @@ nav ul li a:hover{
 }
 .about-forum-program h2 a:hover i::after {
 	left: 0;
-}
-.about-forum-program a {
-	font-size: 14px;
-	color: var(--main-blue);
-	-webkit-transition: .3s ease-out;
-	-o-transition: .3s ease-out;
-	transition: .3s ease-out;
-}
-.about-forum-program a:hover {
-	color: var(--yellow);
 }
 
 /* tasks */
