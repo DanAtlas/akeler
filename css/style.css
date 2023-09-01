@@ -868,6 +868,40 @@ nav ul li a:hover{
 	color: var(--yellow);
 }
 
+/* policies */
+.policies {
+	padding: 50px 0;
+}
+.policies-info {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.policies-info-item {
+	margin-bottom: 20px;
+}
+.policies-info h2 {
+	font-size: 18px;
+	font-family: mbold;
+	line-height: 26px;
+	color: var(--dark);
+	margin-bottom: 10px;
+}
+.policies-info ul li {
+	margin: 8px 0;
+}
+.policies-info a {
+	font-size: 14px;
+	color: var(--dark-blue);
+	text-decoration: none;
+	-webkit-transition: .3s ease-out;
+	-o-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+.policies-info a:hover {
+	color: var(--dark);
+	border-bottom: 1px solid var(--dark);
+}
+
 /* footer */
 footer {
 	background-color: var(--dark-blue);
@@ -894,6 +928,9 @@ footer {
 	-webkit-transition: .3s ease-out;
 	-o-transition: .3s ease-out;
 	transition: .3s ease-out;
+}
+.contacts-item a.policy-link {
+	color: var(--yellow);
 }
 .contacts-item a:hover {
 	color: var(--yellow);
