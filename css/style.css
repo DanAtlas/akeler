@@ -877,7 +877,13 @@ nav ul li a:hover{
 	margin: 0 auto;
 }
 .policies-info-item {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+}
+.policies .kaz-parts-content-title {
+	max-width: 270px;
+}
+.policies .content-article h1 {
+ font-size: 48px;
 }
 .policies-info h2 {
 	font-size: 18px;
