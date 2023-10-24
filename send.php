@@ -1,6 +1,6 @@
 <?php 
   if($_POST) {
-    $to = "abishev295@gmail.com";
+    $to = "$email";
     $from = "info@akeler.kz";
 
     $subject= '=?utf-8?B?' . base64_encode($subject_text) . '?=';
