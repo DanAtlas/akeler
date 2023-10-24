@@ -1,4 +1,20 @@
 $(document).ready(function() {
+  // send mail
+  $("#contactForm").submit(function() {
+    var str = $(this).serialize();
+
+    $.ajax({
+      type: "POST",
+      url: "https://akeler.kz/send.php",
+      data: str,
+      success: function(msg) {
+        $('form input').val('');
+        $('.success-msg').show();
+      }
+    });
+    return false;
+  });
+
   // navigation toggle
   $('#menu, .sidemenu__header--close .fas, .sidemenu-overlay').on('click', function () {
     $('.sidemenu-overlay').toggleClass('sidemenu-overlay--show');
