@@ -1,13 +1,13 @@
 <?php 
   if($_POST) {
+    $first_name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['tel'];
+
     $to = "$email";
     $from = "info@akeler.kz";
 
     $subject= '=?utf-8?B?' . base64_encode($subject_text) . '?=';
-      
-    $first_name = $_POST['name'];
-    $email = $_POST['email'];
-    $phone = $_POST['tel'];
     
     
     $subject = "Новая заявка от $first_name";
