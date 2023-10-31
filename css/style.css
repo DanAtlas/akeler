@@ -4,6 +4,8 @@
 	--white: #fff;
 	--yellow: #ffe79e;
 	--dark: #404040;
+	--red: #b40202;
+	--green: #31ac3a;
 }
 
 * {
@@ -995,10 +997,68 @@ footer {
 .kaz-parts-content-title {
 	max-width: 240px;
 }
+.kaz-content-title-register {
+	max-width: 90px;
+}
 
-.success-msg {
+/* register */
+.register-wrapper {
+	padding: 50px 0;	
+}
+.register-form {
+	max-width: 500px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.register-form .input-field-wrapper {
+	width: calc(50% - 10px);
+}
+.register-form label {
+	display: block;
+	margin: 0 0 10px;
+}
+.register-form label p {
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+.register-form label span {
+	color: var(--red);
+}
+.register-form label input,
+.register-form .button-wrapper {
+	width: 100%;
+}
+.register-form label input {
+	border: 1px solid var(--dark);
+	padding: 6px 12px;
+}
+.register-form .button-wrapper {
+	text-align: center;
+}
+.register-form .button-wrapper button {
+	margin-top: 10px;
+	background-color: var(--main-blue);
+	border: 1px solid var(--main-blue);
+	font-family: mmedium;
+	font-size: 14px;
+	color: var(--white);
+	text-transform: uppercase;
+	padding: 6px 12px;
+	cursor: pointer;
+	-webkit-transition: .3s ease-out;
+	-o-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+.register-form .button-wrapper button:hover {
+	background-color: var(--dark);
+	border-color: var(--dark);
+	color: var(--yellow);
+}
+.register-form .success-msg {
   display: none;
-  color: #31ac3a;
+  color: var(--green);
   font-size: 12px;
   margin: 10px 0;
 }

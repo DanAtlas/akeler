@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // send mail
-  $("#contactForm").submit(function() {
+  $("#registerForm").submit(function() {
     var str = $(this).serialize();
 
     $.ajax({
