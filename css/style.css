@@ -672,7 +672,7 @@ nav ul li a:hover{
 }
 .info-title h1 {
 	font-family: arts;
-	font-size: 70px;
+	font-size: 54px;
 }
 .info-address {
 	position: absolute;
@@ -1208,7 +1208,6 @@ footer {
 		margin-bottom: 20px;
 	}
 	.info-title h1 {
-		font-size: 54px;
 		line-height: 38px;
 	}
 	.info-address {
