@@ -42,7 +42,7 @@ $(document).ready(function() {
   });
 
   // Accordion
-  $('.accord-header').next().hide();
+  $('.accord-header').not('.announcements .accord-header').next().hide();
   $('.accord-header').click(function(){
     $(this).next().slideToggle();
     // $('.accord-header').not(this).next().stop(true,true).slideUp();

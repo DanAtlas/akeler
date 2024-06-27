@@ -628,9 +628,10 @@ nav ul li a:hover{
 	padding: 15px;
 	padding-left: 40px;
 	border: 2px solid var(--yellow);
+	font-size: 14px;
+	line-height: 20px;
 }
 .accord-info-wrap li {
-	font-size: 14px;
 	list-style: disc;
 	margin: 5px 0;
 }
@@ -871,7 +872,8 @@ nav ul li a:hover{
 }
 
 /* policies */
-.policies {
+.policies,
+.announcements {
 	padding: 50px 0;
 }
 .policies-info {
@@ -908,6 +910,22 @@ nav ul li a:hover{
 .policies-info a:hover {
 	color: var(--dark);
 	border-bottom: 1px solid var(--dark);
+}
+
+/* announcements */
+.announcements .task-accordion-item {
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.announcements .accordion-wrapper {
+	width: calc(50% - 10px);
+	margin: 0 0 25px;
+}
+
+.announcements .accord-info {
+	padding-left: 15px;
 }
 
 /* footer */
@@ -1161,7 +1179,8 @@ footer {
 		    -ms-flex-direction: column;
 		        flex-direction: column;
 	}
-	.accordion-wrapper {
+	.accordion-wrapper,
+	.announcements .accordion-wrapper {
 		width: 100%;
 	}
 
