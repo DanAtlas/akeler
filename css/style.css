@@ -387,7 +387,7 @@ nav ul li a:hover {
   position: relative;
 }
 .about-program {
-  padding: 30px 0 30px;
+  padding: 50px 0 30px;
 }
 .about-program p {
   max-width: 800px;
@@ -505,7 +505,7 @@ nav ul li a:hover {
 }
 .about-forum-program {
   position: absolute;
-  top: -40px;
+  top: -48px;
   left: 50%;
   -webkit-transform: translate(-50%);
   -ms-transform: translate(-50%);
@@ -1229,6 +1229,11 @@ footer {
   }
 }
 @media (max-width: 600px) {
+  /* about */
+  .about-program {
+    padding: 100px 0 280px;
+  }
+
   /* info */
   .info {
     margin-bottom: 146px;
